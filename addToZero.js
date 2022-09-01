@@ -1,10 +1,11 @@
 // Starting array
-let array = [28, 43, -12, 30, 4, 0, 12]
+let array = [12, 43, -12, 30, 4, 0, 12]
 
 // Write your solution below:
-let equalZero = false
-for (let i=0; i < array.lengh; i++) {
-    for (let j=0; j < array.length; j++)
-    {if (array [i] + array [j] === 0){equalZero = true}}}
+let zero = false;
 
-console.log(equalZero)
+for (let i=0; i < array.length; i++) {
+    for (let j=0; j < array.length; j++)
+    {if (array[i] + array[j] === 0){zero = true;}}}
+
+console.log(zero)
